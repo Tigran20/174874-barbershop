@@ -1,6 +1,8 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Алексей Троицкий](https://up.htmlacademy.ru/htmlcss/13/user/174874).
+* Наставник: [Александр Игонин] (https://htmlacademy.ru/profile/id30996).
+
 
 ---
 
