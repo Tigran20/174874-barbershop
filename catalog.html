@@ -9,7 +9,7 @@
     <body>
         <header class="main-header">
             <div class="container">
-                <figure class="logo">Barbershop</figure>
+                <div class="logo">Barbershop</div>
                 <nav class="main-navigation">
                     <ul>
                         <li>
@@ -34,9 +34,18 @@
                 </div>
             </div>
         </header>
+        
         <main class="container">
-            <h2 class="shop-section">Средства для ухода</h2>
-            <nav class="shop-navigation">Средства для ухода</nav>
+            <h1 class="shop-section">Средства для ухода</h1>
+            <div class="breadcrumbs">
+                <ul>
+                    <li>
+                        <a href="">Главная</a>
+                        <a href="">Магазин</a>
+                        <span>Средства для ухода</span>
+                    </li>
+                </ul>
+            </div>
             <div class="shop-filter">
                 <form method="post" action="#"> 
                      <h3 class="shop-title-manufacturer">Производители:</h3>
@@ -46,15 +55,16 @@
                      <input type="checkbox" name="option4" value="a4">Malin+Goetz<br>
                      <input type="checkbox" name="option5" value="a5">Murray's<br>
                      <input type="checkbox" name="option6" value="a6" checked>American Crew
-                </form>
-                <form method="post" action="#"> 
+                
                      <h3 class="shop-title-manufacturer">Группы товаров:</h3>
-                     <input type="radio">Бритвенные принадлежности<br>
-                     <input type="radio" checked>Средства для ухода<br>
-                     <input type="radio">Аксессуары
+                     <input type="radio" name="radio">Бритвенные принадлежности<br>
+                     <input type="radio" checked name="radio">Средства для ухода<br>
+                     <input type="radio" name="radio">Аксессуары
+                    
+                     <button class="btn show-product" type="submit">Показать</button>
                 </form>
             </div>
-            <button class="btn show-product">Показать</button>
+            
             <div class="shop-items">
                 <article class="shop-item">
                     <figure>
@@ -117,8 +127,14 @@
                     </div>
                 </article>
             </div>
-            <a class="section-navigation" href="">2</a>
+            <div class="section-navigation">
+                <a href="#">1</a>
+                <span>2</span>
+                <a href="#">3</a>
+                <a href="#">4</a>
+            </div>  
         </main>
+        
         <footer class="main-footer">
             <div class="container">
                 <div class="footer-contacts">
