@@ -1,13 +1,18 @@
-body, h4{
+body{
     font-size: 14px;
     line-height: 24px;
-    color: #d4d2cf;
+    color: #f7f4f1;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
     background-color: #070707;
     text-transform: uppercase;
 }
 
+h2{
+    font-size: 30px;
+    line-height: 42px;
+
+}
 
 li{
     list-style: none;
