@@ -6,20 +6,107 @@ body{
     font-weight: bold;
     background-color: #070707;
     text-transform: uppercase;
+    
+    min-width: 1122px;
+    min-height: 1750px;
+    margin: 0;
+    padding: 0;
 }
 
 h2{
     font-size: 30px;
     line-height: 42px;
-
 }
 
-li{
-    list-style: none;
+p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-a{
-    color: #d4d2cf;
-    text-decoration: none;
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
+.container{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-header{
+    margin-bottom: 60px;
+}
+
+.main-navigation{
+    float: left;
+    width: 780px;
+}
+
+.user-block{
+    float: right;
+    width: 140px;
+}
+
+.index-logo{
+    width: 368px;
+    height: 204px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.features{
+    margin-bottom: 80px;
+}
+
+.features-item{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.index-content{
+    padding: 50px 80px;
+}
+
+.features-item:last-child{
+    margin-right: 0;
+}
+
+.index-content{
+    margin-bottom: 35px;
+    padding: 50px 80px;
+}
+
+.index-content-left{
+    float: left;
+    width: 380px;
+}
+
+.index-content-right{
+    float: right;
+    width: 300px;
+}
+
+.main-footer{
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer-contacts{
+    float: left;
+    width: 320px;
+    margin-right: 60px;
+}
+
+.footer-social{
+    float: left;
+    width: 180px;
+}
+
+.footer-copyright{
+    float: right;
+    width: 180px;
 }
